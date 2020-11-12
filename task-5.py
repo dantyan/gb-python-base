@@ -14,7 +14,7 @@ else:
     print('Печально но вы в минусе')
 
 if lucky_year:
-    print(f'{income / outcome:.2f} сотношение прибыли к затратам')
+    print(f'{income / outcome:.2f} сотношение выручки к затратам')
     workers = input('Укажите число работников: ')
     workers = int(workers)
-    print(f'{income / workers:.2f} Прибыль из расчета на работника')
+    print(f'{(income - outcome) / workers:.2f} Прибыль из расчета на работника')
