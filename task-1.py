@@ -1,4 +1,5 @@
 from datetime import date
+
 today = date.today()
 
 _str = input('Введите произвольную строку: ')
